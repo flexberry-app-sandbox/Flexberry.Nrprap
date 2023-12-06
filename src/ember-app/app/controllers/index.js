@@ -22,13 +22,13 @@ export default Controller.extend({
             link: 'i-i-s-nrprap-класс-l',
             caption: i18n.t('forms.application.sitemap.nrprap.i-i-s-nrprap-класс-l.caption'),
             title: i18n.t('forms.application.sitemap.nrprap.i-i-s-nrprap-класс-l.title'),
-            icon: 'tasks',
+            icon: 'edit',
             children: null
           }, {
             link: 'i-i-s-nrprap-прикол-l',
             caption: i18n.t('forms.application.sitemap.nrprap.i-i-s-nrprap-прикол-l.caption'),
             title: i18n.t('forms.application.sitemap.nrprap.i-i-s-nrprap-прикол-l.title'),
-            icon: 'calendar',
+            icon: 'paperclip',
             children: null
           }]
         }
