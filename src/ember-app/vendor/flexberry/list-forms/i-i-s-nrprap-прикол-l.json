@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-nrprap-прикол-e",
+  "editForm": "i-i-s-nrprap-прикол-e",
+  "external": false,
+  "caption": "Прикол",
+  "name": "IISNrprapПриколL",
+  "className": "ПриколL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-nrprap-прикол",
+      "modelProjection": "ПриколL"
+    }
+  ]
+}

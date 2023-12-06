@@ -1,0 +1,106 @@
+﻿{
+  "name": "IISNrprapПрикол",
+  "modelName": "i-i-s-nrprap-прикол",
+  "className": "Прикол",
+  "nameSpace": "IIS.Nrprap",
+  "parentModelName": null,
+  "parentClassName": null,
+  "attrs": [
+    {
+      "name": "строка",
+      "type": "string",
+      "flexberryType": "string",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    }
+  ],
+  "belongsTo": [
+    {
+      "polymorphic": false,
+      "presence": true,
+      "name": "класс",
+      "relatedTo": "i-i-s-nrprap-класс",
+      "inverse": null
+    }
+  ],
+  "hasMany": [],
+  "projections": [
+    {
+      "name": "ПриколE",
+      "modelName": "i-i-s-nrprap-прикол",
+      "attrs": [
+        {
+          "name": "строка",
+          "caption": "Строка",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": "Номер",
+          "lookupValueField": "номер",
+          "relationName": "Класс",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": true,
+              "index": 2
+            }
+          ],
+          "index": 1,
+          "type": "standard",
+          "caption": "Класс",
+          "name": "класс",
+          "relatedTo": "i-i-s-nrprap-класс",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    },
+    {
+      "name": "ПриколL",
+      "modelName": "i-i-s-nrprap-прикол",
+      "attrs": [
+        {
+          "name": "строка",
+          "caption": "Строка",
+          "hidden": false,
+          "index": 0
+        }
+      ],
+      "belongsTo": [
+        {
+          "lookupValue": null,
+          "lookupValueField": null,
+          "relationName": "Класс",
+          "belongsTo": [],
+          "hidden": false,
+          "attrs": [
+            {
+              "name": "номер",
+              "caption": "Номер",
+              "hidden": false,
+              "index": 1
+            }
+          ],
+          "index": -1,
+          "type": "default",
+          "caption": "Номер",
+          "name": "класс",
+          "relatedTo": "i-i-s-nrprap-класс",
+          "inverse": null
+        }
+      ],
+      "hasMany": []
+    }
+  ],
+  "stored": true,
+  "offline": true,
+  "external": false
+}

@@ -1,0 +1,29 @@
+﻿{
+  "applicationCaption": "Nrprap",
+  "applicationTitle": "Nrprap",
+  "items": [
+    {
+      "link": null,
+      "menuName": "nrprap",
+      "caption": "Nrprap",
+      "title": "Nrprap",
+      "children": [
+        {
+          "link": "i-i-s-nrprap-класс-l",
+          "menuName": null,
+          "caption": "Класс",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-nrprap-прикол-l",
+          "menuName": null,
+          "caption": "Прикол",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

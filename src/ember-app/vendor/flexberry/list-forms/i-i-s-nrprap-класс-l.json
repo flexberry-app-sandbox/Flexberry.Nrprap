@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-nrprap-класс-e",
+  "editForm": "i-i-s-nrprap-класс-e",
+  "external": false,
+  "caption": "Класс",
+  "name": "IISNrprapКлассL",
+  "className": "КлассL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-nrprap-класс",
+      "modelProjection": "КлассL"
+    }
+  ]
+}

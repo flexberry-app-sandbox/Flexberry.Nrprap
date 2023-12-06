@@ -1,0 +1,1 @@
+docker-compose -p nrprap-java up -d
