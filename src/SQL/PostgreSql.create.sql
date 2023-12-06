@@ -5,6 +5,7 @@
 
 CREATE TABLE Класс (
  primaryKey UUID NOT NULL,
+ Действия VARCHAR(9) NULL,
  Номер INT NULL,
  PRIMARY KEY (primaryKey));
 

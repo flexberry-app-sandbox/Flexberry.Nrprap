@@ -12,6 +12,9 @@ export default {
     }
   },
   validations: {
+    действия: {
+      __caption__: 'действия'
+    },
     номер: {
       __caption__: 'Номер'
     }

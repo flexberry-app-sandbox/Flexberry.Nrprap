@@ -9,6 +9,8 @@ moduleForModel('i-i-s-nrprap-класс', 'Unit | Serializer | i-i-s-nrprap-кл
     'transform:decimal',
     'transform:guid',
 
+    'transform:i-i-s-nrprap-t-дейтсвие',
+
     'model:i-i-s-nrprap-класс',
     'model:i-i-s-nrprap-прикол',
     'validator:ds-error',

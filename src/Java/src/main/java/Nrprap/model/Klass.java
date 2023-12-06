@@ -24,6 +24,9 @@ public class Klass {
     @Column(name = "Номер")
     private Integer номер;
 
+    @Column(name = "Действия")
+    private String действия;
+
 
     public Klass() {
         super();
@@ -43,6 +46,14 @@ public class Klass {
 
     public void setНомер(Integer номер) {
       this.номер = номер;
+    }
+
+    public String getДействия() {
+      return действия;
+    }
+
+    public void setДействия(String действия) {
+      this.действия = действия;
     }
 
 

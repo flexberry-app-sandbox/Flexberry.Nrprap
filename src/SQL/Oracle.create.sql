@@ -9,6 +9,8 @@ CREATE TABLE "Класс"
 
 	"Номер" NUMBER(10) NULL,
 
+	"Действия" NVARCHAR2(9) NULL,
+
 	 PRIMARY KEY ("primaryKey")
 ) ;
 

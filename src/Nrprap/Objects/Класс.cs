@@ -37,10 +37,43 @@ namespace IIS.Nrprap
         
         private int fНомер;
         
+        private IIS.Nrprap.tДейтсвие fДействия;
+        
         // *** Start programmer edit section *** (Класс CustomMembers)
 
         // *** End programmer edit section *** (Класс CustomMembers)
 
+        
+        /// <summary>
+        /// Действия.
+        /// </summary>
+        // *** Start programmer edit section *** (Класс.Действия CustomAttributes)
+
+        // *** End programmer edit section *** (Класс.Действия CustomAttributes)
+        public virtual IIS.Nrprap.tДейтсвие Действия
+        {
+            get
+            {
+                // *** Start programmer edit section *** (Класс.Действия Get start)
+
+                // *** End programmer edit section *** (Класс.Действия Get start)
+                IIS.Nrprap.tДейтсвие result = this.fДействия;
+                // *** Start programmer edit section *** (Класс.Действия Get end)
+
+                // *** End programmer edit section *** (Класс.Действия Get end)
+                return result;
+            }
+            set
+            {
+                // *** Start programmer edit section *** (Класс.Действия Set start)
+
+                // *** End programmer edit section *** (Класс.Действия Set start)
+                this.fДействия = value;
+                // *** Start programmer edit section *** (Класс.Действия Set end)
+
+                // *** End programmer edit section *** (Класс.Действия Set end)
+            }
+        }
         
         /// <summary>
         /// Номер.

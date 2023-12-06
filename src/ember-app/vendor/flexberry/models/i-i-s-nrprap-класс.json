@@ -7,6 +7,15 @@
   "parentClassName": null,
   "attrs": [
     {
+      "name": "действия",
+      "type": "i-i-s-nrprap-t-дейтсвие",
+      "flexberryType": "tДейтсвие",
+      "notNull": false,
+      "defaultValue": "",
+      "stored": true,
+      "ordered": false
+    },
+    {
       "name": "номер",
       "type": "number",
       "flexberryType": "int",
